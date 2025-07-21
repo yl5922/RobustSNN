@@ -1,2 +1,3 @@
 # RobustSNN
-This repository contains the code for robust SNN. The code is coming soon
+This repository contains the official code for our robust Spiking Neural Network (SNN) framework.  
+The code will be released soon
