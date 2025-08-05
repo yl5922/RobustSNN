@@ -1,4 +1,4 @@
-# Robust Spiking Neural Network (SNN) Framework
+# Robust Spiking Neural Network 
 
 This repository contains the official code for our **Robust Semantic Communication enabled by Spiking Neural Networks**.
 
