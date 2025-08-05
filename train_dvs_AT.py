@@ -100,7 +100,7 @@ if __name__ == "__main__":
     
     parser.add_argument("--model_type", type=str, choices=["ANN", "SNN"], default="SNN")
     parser.add_argument('-T_max', default=32, type=int, help='T_max for CosineAnnealingLR')
-    parser.add_argument("--datadir", type=str, default=r"C:\Users\yl5922\OneDrive - Imperial College London\Desktop\experiment\Robust SNN\data")
+    parser.add_argument("--datadir", type=str, default="./data")
     parser.add_argument("--num_worker", type=int, default=0)
     parser.add_argument("--epochs_before_penalty", type=int, default=1,
                         help="Start applying penalty after these many epochs for SNN")
