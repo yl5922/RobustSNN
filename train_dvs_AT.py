@@ -254,8 +254,8 @@ if __name__ == "__main__":
         lr_scheduler.step()
         
         if epoch%args.evaluate_interval == args.evaluate_interval-1 and epoch >=80:
-            epsilons = list(range(0, 26))  
-            epsilons = [(10)**(db/5) for db in epsilons]
+            epsilons = list(range(0, 13))  
+            epsilons = [(10)**(db/2.5) for db in epsilons]
             
             accuracies = evaluate_spike_attack_multiple_epsilons(
                 model,
